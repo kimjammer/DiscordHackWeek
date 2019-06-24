@@ -1,0 +1,6 @@
+{
+	"name": "Bug Destroyer Adventure",
+  "version": "1.0.0",
+  "description": "For the first Discord Hack Week!",
+  "main": "main.js"
+}
