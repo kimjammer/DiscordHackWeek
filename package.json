@@ -2,5 +2,23 @@
 	"name": "Bug Destroyer Adventure",
   "version": "1.0.0",
   "description": "For the first Discord Hack Week!",
-  "main": "main.js"
+  "main": "main.js",
+  "scripts": {
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimjammer/DiscordHackWeek.git"
+  },
+  "author": "Kimjammer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimjammer/DiscordhackWeek/issues"
+  },
+  "homepage": "https://github.com/kimjammer/DiscordHackWeek#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
 }
