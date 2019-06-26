@@ -20,7 +20,28 @@ client.on("message", (message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
 
   if (message.content.startsWith(prefix + "start")) {
-    message.channel.send("Get ready!");
+  	if (/* Player is initilized in DB*/) {
+  		//Initilize player in DB with the following categories: level = 1, AttackBoost = 1, Enemy defeated = 1, Enemy Health = 0
+    	message.reply('Get ready, I have sent a DM so you can play!');
+    	data.push("Welcome to Bug Destroyer adventure. You are about to enter into the realm of code, into Discord itself, specifically. You hear that there is great treasure, but that Evil Wumpus is protecting it with many bugs throughout his dungeon. Head forward into the portal to continue.")
+    }else{
+    	message.reply('It appears you have already started a game!');
+    }
+  }else if (message.channel.type !== 'text') {
+  	//Commands for the game
+  	if (/*forward or alias of forward*/) {
+  		if(/*Enemy defeated?*/) {
+  			//User.level++
+  		}else{
+  			data.push("You must defeat the monster in your way first.")
+  		}
+  	}else if (/*attack*/) {
+  		//code
+  	}else if (/*block*/) {
+  		//code
+  	}
+  }else{
+  	message.channel.send("Play the game in your DMs!");
   }
 });
 
