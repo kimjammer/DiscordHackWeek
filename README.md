@@ -1,4 +1,7 @@
 # DiscordHackWeekBot
+
+## Note: This is unfinished and discontinued - my teammates didn't contribute :(
+
 A bot for the 1st ever Discord Hack Week challenge!
 
 How To Use:
